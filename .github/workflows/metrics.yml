@@ -14,6 +14,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.classic.svg
+          committer_token: ${{ secrets.COOLPLAYLIN_BOT_TOKEN }}
           token: ${{ secrets.COOLPLAYLIN_BOT_TOKEN }}
           committer_message: "Update metrics.classic.svg"
           base: header, repositories
